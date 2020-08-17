@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
             public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {
                 if (id == R.integer.login || id == EditorInfo.IME_NULL) {
                     attemptLogin();
-                    return true;
+                    return true; 
                 }
                 return false;
             }
